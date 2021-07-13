@@ -1,0 +1,8 @@
+{
+  "name": "andalath-app",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
