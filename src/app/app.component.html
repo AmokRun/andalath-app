@@ -3,6 +3,11 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="inbox-list">
+          <div class=margin-icon>
+            <a href="./accueil/">
+          <img src="assets/icon/athaya_icon.png">
+        </a>
+        </div>
           <ion-list-header>Andalath El Bus</ion-list-header>
           <ion-note>Application de suivi des bus à Feraoun</ion-note>
 
@@ -15,11 +20,9 @@
         </ion-list>
 
         <ion-list id="labels-list">
-          <ion-list-header>v1.0</ion-list-header>
+          <ion-list-header>Andalath El Bus v1.0</ion-list-header>
 
           <ion-item *ngFor="let label of labels" lines="none">
-            <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
-            <ion-label>{{ label }}</ion-label>
           </ion-item>
         </ion-list>
       </ion-content>

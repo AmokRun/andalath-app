@@ -2,6 +2,7 @@
   <ion-toolbar color="success">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
     <ion-title>Bus</ion-title>
   </ion-toolbar>
@@ -9,51 +10,40 @@
 
 
 <ion-content>
-<!-- wp:heading -->
-<h2>Lignes de bus à Feraoun</h2>
-<!-- /wp:heading -->
+  <div class="has-padding-5">
+  </div>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Lignes de bus à Feraoun</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <div class="has-text-align-justify">
+    Liste des bus desservant la commune de Feraoun avec le nom des propriétaires, le N° de ligne, type de bus...
+    Trois lignes de bus permettent de relier la commune de Feraoun à celles d'Amizour et/ou  de Béjaia. En bref, voici donc ces lignes :
+</div>
+  </ion-card-content>
+  <ion-card-content>
+    <ul><li>Ligne N° 062004 : Feraoun &lt;&gt; Amizour </li><li>Ligne N° 062005 : Feraoun &lt;&gt; Amizour &lt;&gt; Béjaia </li><li>Ligne N° 062006 : Tifritine &lt;&gt; Feraoun &lt;&gt; Amizour &lt;&gt; Béjaia </li></ul>
 
-<!-- wp:paragraph {"className":"has-text-align-justify"} -->
-<p class="has-text-align-justify">Liste des bus desservant la commune de Feraoun avec le nom des propriétaires, le N° de ligne, type de bus...</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"has-text-align-justify"} -->
-<p class="has-text-align-justify">Trois lignes de bus permettent de relier la commune de Feraoun à celles d’<a href="https://fr.wikipedia.org/wiki/Amizour">Amizour</a> et/ou  de <a href="https://fr.wikipedia.org/wiki/B%C3%A9ja%C3%AFa">Béjaia</a>. En bref, voici donc ces lignes :</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-<ul><li>Ligne N° 062004 : Feraoun &lt;&gt; Amizour </li><li>Ligne N° 062005 : Feraoun &lt;&gt; Amizour &lt;&gt; Béjaia </li><li>Ligne N° 062006 : Tifritine &lt;&gt; Feraoun &lt;&gt; Amizour &lt;&gt; Béjaia </li></ul>
-<!-- /wp:list -->
-
-<!-- wp:search {"label":"Recherche","showLabel":false,"buttonText":"Recherche","buttonUseIcon":true} /-->
-
-<!-- wp:table {"style":{"color":{"text":"#33a012"}},"backgroundColor":"background","className":"is-style-stripes"} -->
-<figure class="wp-block-table is-style-stripes"><table class="has-background-background-color has-text-color has-background" style="color:#33a012"><thead><tr><th>N° ligne</th><th>Nom Bus</th><th> <strong>Propriétaire ligne</strong> </th><th> <strong>Stationnement</strong> </th><th> <strong>Type Bus</strong> </th><th> <strong>Nb Voyageur</strong> </th></tr></thead><tbody><tr><td>062004</td><td>Mammeri Abdelmohcine</td><td>Mammeri Abdelmohcine</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062004</td><td>Baziz Abdellah</td><td>Baziz Abdellah</td><td>Akentas</td><td>Toyota</td><td>30</td></tr><tr><td>062004</td><td>Khaldi Locif</td><td>Khaldi Locif</td><td>El Koumi</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Saadi Rachid</td><td>Saadi Rachid</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Hara Brahim</td><td>Baziz Abdellah</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Bouzebra Saadi</td><td>Bouzebra Saadi</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Meddour Djelloul</td><td>Meddour Djelloul</td><td>Feraoun</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Baroudi Djoudi</td><td>Baroudi Djoudi</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Soualmi Zoubir</td><td>Soualmi Zoubir</td><td>Akentas</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Saadi Mahieddine</td><td>Saadi Mahieddine</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Bahloul Billal</td><td>Mammeri Abdelmohcine</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Aghelis Nacir</td><td>Aghelis Nacir</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Mammeri Locif</td><td>Mammeri Abdelmohcine</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Soualmi Deridj</td><td>Soualmi Deridj</td><td>Akentas</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Dahmani Mustapha</td><td>Dahmani Mustapha</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Azzoug Nacir</td><td>Azzoug Nacir</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Bendahmane Hamza</td><td>Yousfi Moussa</td><td>Iadnanen</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Aghelis Djamel</td><td>Saadi Ourabah</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Amaouche Madani</td><td>Amaouche Madani</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr></tbody></table><figcaption>Liste des bus desservant la commune de Feraoun (mise à jour le 02/07/2021)</figcaption></figure>
-<!-- /wp:table -->
-
-<!-- wp:mappress/map {"mapid":"1","width":"780","align":"center"} /-->
+<figure><table><thead><tr><th>N° ligne</th><th>Nom Bus</th><th> <strong>Propriétaire ligne</strong> </th><th> <strong>Stationnement</strong> </th><th> <strong>Type Bus</strong> </th><th> <strong>Nb Voyageur</strong> </th></tr></thead><tbody><tr><td>062004</td><td>Mammeri Abdelmohcine</td><td>Mammeri Abdelmohcine</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062004</td><td>Baziz Abdellah</td><td>Baziz Abdellah</td><td>Akentas</td><td>Toyota</td><td>30</td></tr><tr><td>062004</td><td>Khaldi Locif</td><td>Khaldi Locif</td><td>El Koumi</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Saadi Rachid</td><td>Saadi Rachid</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Hara Brahim</td><td>Baziz Abdellah</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Bouzebra Saadi</td><td>Bouzebra Saadi</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Meddour Djelloul</td><td>Meddour Djelloul</td><td>Feraoun</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Baroudi Djoudi</td><td>Baroudi Djoudi</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Soualmi Zoubir</td><td>Soualmi Zoubir</td><td>Akentas</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Saadi Mahieddine</td><td>Saadi Mahieddine</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Bahloul Billal</td><td>Mammeri Abdelmohcine</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Aghelis Nacir</td><td>Aghelis Nacir</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Mammeri Locif</td><td>Mammeri Abdelmohcine</td><td>Iguer Ali</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Soualmi Deridj</td><td>Soualmi Deridj</td><td>Akentas</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Dahmani Mustapha</td><td>Dahmani Mustapha</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Azzoug Nacir</td><td>Azzoug Nacir</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062005</td><td>Bendahmane Hamza</td><td>Yousfi Moussa</td><td>Iadnanen</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Aghelis Djamel</td><td>Saadi Ourabah</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr><tr><td>062006</td><td>Amaouche Madani</td><td>Amaouche Madani</td><td>Tifritine</td><td>Toyota</td><td>30</td></tr></tbody></table><figcaption>Liste des bus desservant la commune de Feraoun (mise à jour le 02/07/2021)</figcaption></figure>
 
 <figcaption>Carte des principaux arrêts de Feraoun à Béjaia </figcaption>
+  </ion-card-content>
+</ion-card>
 
-<!-- wp:paragraph {"className":"has-text-align-justify"} -->
-<p class="has-text-align-justify">N'hésitez pas à nous soumettre vos remarques et suggestions via le formulaire de contact en cliquant sur le lien ci-dessous ou en passant par le menu principal de l'application:</p>
-<!-- /wp:paragraph -->
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Contact</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <div class="has-text-align-justify">
+    N'hésitez pas à nous soumettre vos remarques et suggestions via le formulaire de contact en cliquant sur le lien ci-dessous ou en passant par le menu principal de l'application
+    <a href="http://andalath.fr/contact">Contactez-nous</a>
+    </div>
+  </ion-card-content>
 
-<!-- wp:paragraph -->
-<p> <a href="http://andalath.fr/contact">Contactez-nous</a> </p>
-<!-- /wp:paragraph -->
+</ion-card>
 
-<!-- wp:paragraph {"className":"has-text-align-justify"} -->
-<p class="has-text-align-justify">Pour avoir les horaires de passage des bus par arrêt, cliquer sur lien ci-dessous:</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p><a href="http://andalath.fr/horaires">Horaires des bus Feraoun - Amizour - Béjaia </a></p>
-<!-- /wp:paragraph -->
 
-<!-- wp:crowdsignal-forms/vote {"pollId":"491ef082-78dc-43af-8dd6-667fb7f34251","title":"Untitled Vote"} -->
-<!-- wp:crowdsignal-forms/vote-item {"answerId":"576e048b-cbe9-46d8-bb71-073f53f96388","type":"up"} /-->
-
-<!-- wp:crowdsignal-forms/vote-item {"answerId":"ad1ba3ae-a79f-4fcb-b6a0-e68544dd32b2","type":"down"} /-->
-<!-- /wp:crowdsignal-forms/vote -->
 </ion-content>

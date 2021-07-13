@@ -4,8 +4,8 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
-    pathMatch: 'full'
+    loadChildren: () => import('./pages/accueil/accueil.module').then( m => m.AccueilPageModule)
+    //pathMatch: 'full'
   },
   {
     path: 'folder/:id',

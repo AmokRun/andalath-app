@@ -2,6 +2,7 @@
   <ion-toolbar color="success">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
     </ion-buttons>
     <ion-title>Contact</ion-title>
   </ion-toolbar>
@@ -9,35 +10,19 @@
 
 
 <ion-content>
-  <!-- wp:paragraph {"align":"justify"} -->
-<p class="has-text-align-justify">Votre avis nous intéresse, aidez-nous à améliorer l'application <a href="http://andalath.fr">Andalath El Bus</a> (Transport de Feraoun &lt;&gt; <a href="https://fr.wikipedia.org/wiki/Amizour">Amizour</a> &lt;&gt; <a href="https://fr.wikipedia.org/wiki/B%C3%A9ja%C3%AFa">Béjaia</a>). N'hésitez pas à nous envoyer un message via le formulaire ci-dessous:</p>
-<!-- /wp:paragraph -->
+  <div class="has-padding-5">
+  </div>
 
-<!-- wp:spacer {"height":32,"className":"desktop-only"} -->
-<div style="height:32px" aria-hidden="true" class="wp-block-spacer desktop-only"></div>
-<!-- /wp:spacer -->
 
-<!-- wp:columns {"align":"wide","className":"has-2-columns"} -->
-<div class="wp-block-columns alignwide has-2-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"left"} -->
-<h2 class="has-text-align-left">Contactez-nous </h2>
-<!-- /wp:heading -->
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Contact</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Votre avis nous intéresse, aidez-nous à améliorer cette application, N'hésitez pas à nous soumettre vos remarques et suggestions via le formulaire de contact en cliquant sur le lien ci-dessous ou en passant par le menu principal de l'application
+    <a href="http://andalath.fr/contact">Contactez-nous</a>
+  </ion-card-content>
 
-<!-- wp:jetpack/contact-form {"subject":"[Titre du site] Contact","to":"mokrane_aithamoudi@yahoo.fr"} -->
-<!-- wp:jetpack/field-name {"required":true} /-->
+</ion-card>
 
-<!-- wp:jetpack/field-email {"label":"Email","required":true} /-->
-
-<!-- wp:jetpack/field-textarea {"required":true} /-->
-<!-- /wp:jetpack/contact-form --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-<p>Pour avoir les horaires de passage des bus par arrêt, cliquer sur lien ci-dessous:</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="http://andalath.fr/horaires">Horaires des bus Feraoun - Amizour - Béjaia </a></p>
-<!-- /wp:paragraph -->
 </ion-content>
