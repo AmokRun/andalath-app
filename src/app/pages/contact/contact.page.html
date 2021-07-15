@@ -10,18 +10,43 @@
 
 
 <ion-content>
-  <div class="has-padding-5">
-  </div>
+  <div>
 
+     </div>
+  
 
 <ion-card>
-  <ion-card-header>
+
+    <figure><img alt="Contact" src="assets/img/contact.jpg" /></figure>
+  </ion-card>
+
+    
+
+  <ion-card>
+    <ion-card-header>
     <ion-card-title>Contact</ion-card-title>
   </ion-card-header>
+
   <ion-card-content>
     Votre avis nous intéresse, aidez-nous à améliorer cette application, N'hésitez pas à nous soumettre vos remarques et suggestions via le formulaire de contact en cliquant sur le lien ci-dessous ou en passant par le menu principal de l'application
     <a href="http://andalath.fr/contact">Contactez-nous</a>
   </ion-card-content>
+  </ion-card>
+
+<ion-card>
+    <ion-card-header>
+    <ion-card-title>Contactez-nous</ion-card-title>
+  </ion-card-header>
+
+    <form id="contact" method="post" action="traitement_formulaire.php">
+
+        <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" tabindex="1" /></p>
+        <p><label for="email">Email :</label><input type="text" id="email" name="email" tabindex="2" /></p> 
+      <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8"></textarea></p>
+
+      <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+    </form>
+    <ion-input type="text" [(ngModel)]="myInput"></ion-input>
 
 </ion-card>
 

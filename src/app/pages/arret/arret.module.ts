@@ -18,3 +18,4 @@ import { ArretPage } from './arret.page';
   declarations: [ArretPage]
 })
 export class ArretPageModule {}
+
